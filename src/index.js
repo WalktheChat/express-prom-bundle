@@ -66,6 +66,8 @@ function main(opts) {
     );
   }
 
+  promClient.collectDefaultMetrics();
+
   const httpMetricName = opts.httpDurationMetricName || 'http_request_duration_seconds';
 
   const metricTemplates = {
