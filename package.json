@@ -1,5 +1,5 @@
 {
-  "name": "express-prom-bundle",
+  "name": "@walkthechat/express-prom-bundle",
   "version": "3.2.2",
   "description": "express middleware with popular prometheus metrics in one bundle",
   "main": "src/index.js",
